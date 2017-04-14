@@ -16,5 +16,7 @@ Please be aware, the OPA1622 has 2 additional pins:
    It is routed to the via next to DIP pin 5.
    Per default, it is always connected with a bottom line to V+, going from the via to DIP pin 5.
    If you want to control it via an external signal, cut that line and connect the via to your controller.
+   
+The OPA1622 datasheet suggests adding two decoupling capacitors from V+ and V- to GND. If you want to add them, there are SMD pads for those (0805 in).
   
-This board is not yet tested! I'll do a fab run once I have more boards for a panel, and publish a note here on how to get any spares (costs will be just those I had, but feel free to tip).
+**This board is not yet tested!** I'll do a fab run once I have more boards for a panel, and publish a note here on how to get any spares (costs will be just those I had, but feel free to tip).
