@@ -1,0 +1,39 @@
+C2		100nF (on bottom!)
+IC1		4066N (on bottom!)
+C1		470uF
+R1		1k
+D1 		1N4004
+R2,R3,R4	100R
+ZENER		5.1V
+R6		6k8
+R5		3k3
+HU		2x5 header
+12V		1x2 header
+NANO		Arduino Nano (USB port to the PCB edge)
+BT		Bluetooth Module CSR8645 with 12V regulator (regulator "on top")
+
+Careful with the 12V header, space is a bit tight to the HU header.
+
+Pin Out HU Header
+Numbering is non-default (sorry):
+      ___
+[1] 2 =3= 4  5
+ 6  7  8  9 10
+
+PCB		MELBUS
+ 1 Gnd		Shield
+ 2 Audio Gnd	2
+ 3 Busy		5
+ 4 Audio Left	6
+ 5 NC		-
+ 6 NC		-
+ 7 V_Run (12V)	3 (optional)
+ 8 Clock	1
+ 9 Data		4
+10 Audio Right	7
+
+The 12V pin header:
+The marked pin (outer pin) is connected to the Arduino Nano and the bluetooth module.
+The unmarked inner pin is connected to V_Run.
+
+Either connect the outer pin to an external 12V source (e.g. cigarette ligher), or connect the inner to the outer pin.
