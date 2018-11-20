@@ -77,22 +77,22 @@
 <library name="archi_laptop">
 <packages>
 <package name="CSR8645_MODULE">
-<pad name="OUTL" x="-15.24" y="7.62" drill="0.6" shape="square"/>
-<pad name="AGND" x="-15.24" y="5.08" drill="0.6" shape="square"/>
-<pad name="OUTR" x="-15.24" y="2.54" drill="0.6" shape="square"/>
-<pad name="MUTE" x="-15.24" y="-2.54" drill="0.6" shape="square"/>
-<pad name="MIC-" x="-15.24" y="-12.7" drill="0.6" shape="square"/>
-<pad name="MIC+" x="-15.24" y="-15.24" drill="0.6" shape="square"/>
-<pad name="VOL+" x="15.24" y="7.62" drill="0.6" shape="square"/>
-<pad name="VOL-" x="15.24" y="5.08" drill="0.6" shape="square"/>
-<pad name="NEXT" x="15.24" y="2.54" drill="0.6" shape="square"/>
-<pad name="PREV" x="15.24" y="0" drill="0.6" shape="square"/>
-<pad name="PLAY" x="15.24" y="-2.54" drill="0.6" shape="square"/>
-<pad name="COM" x="15.24" y="-5.08" drill="0.6" shape="square"/>
-<pad name="BAT" x="15.24" y="-7.62" drill="0.6" shape="square"/>
-<pad name="GND" x="15.24" y="-10.16" drill="0.6" shape="square"/>
-<pad name="VCC" x="15.24" y="-12.7" drill="0.6" shape="square"/>
-<pad name="GND_ISO" x="15.24" y="-15.24" drill="0.6" shape="square"/>
+<pad name="OUTL" x="-15.24" y="7.62" drill="1.016" shape="square"/>
+<pad name="AGND" x="-15.24" y="5.08" drill="1.016" shape="square"/>
+<pad name="OUTR" x="-15.24" y="2.54" drill="1.016" shape="square"/>
+<pad name="MUTE" x="-15.24" y="-2.54" drill="1.016" shape="square"/>
+<pad name="MIC-" x="-15.24" y="-12.7" drill="1.016" shape="square"/>
+<pad name="MIC+" x="-15.24" y="-15.24" drill="1.016" shape="square"/>
+<pad name="VOL+" x="15.24" y="7.62" drill="1.016" shape="square"/>
+<pad name="VOL-" x="15.24" y="5.08" drill="1.016" shape="square"/>
+<pad name="NEXT" x="15.24" y="2.54" drill="1.016" shape="square"/>
+<pad name="PREV" x="15.24" y="0" drill="1.016" shape="square"/>
+<pad name="PLAY" x="15.24" y="-2.54" drill="1.016" shape="square"/>
+<pad name="COM" x="15.24" y="-5.08" drill="1.016" shape="square"/>
+<pad name="BAT" x="15.24" y="-7.62" drill="1.016" shape="square"/>
+<pad name="GND" x="15.24" y="-10.16" drill="1.016" shape="square"/>
+<pad name="VCC" x="15.24" y="-12.7" drill="1.016" shape="square"/>
+<pad name="GND_ISO" x="15.24" y="-15.24" drill="1.016" shape="square"/>
 <wire x1="-16.51" y1="12.7" x2="-16.51" y2="8.89" width="0.127" layer="21"/>
 <wire x1="-16.51" y1="8.89" x2="-16.51" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-16.51" y1="1.27" x2="-16.51" y2="-16.51" width="0.127" layer="21"/>
@@ -116,22 +116,22 @@
 <wire x1="13.97" y1="-13.97" x2="13.97" y2="-16.51" width="0.127" layer="21"/>
 <wire x1="16.51" y1="-13.97" x2="13.97" y2="-13.97" width="0.127" layer="21"/>
 <wire x1="-13.97" y1="1.27" x2="-16.51" y2="1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="-15.24" y="0" drill="0.6" shape="square"/>
-<pad name="P$2" x="-15.24" y="-5.08" drill="0.6" shape="square"/>
-<pad name="P$3" x="-15.24" y="-7.62" drill="0.6" shape="square"/>
-<pad name="P$4" x="-15.24" y="-10.16" drill="0.6" shape="square"/>
+<pad name="P$1" x="-15.24" y="0" drill="1.016" shape="square"/>
+<pad name="P$2" x="-15.24" y="-5.08" drill="1.016" shape="square"/>
+<pad name="P$3" x="-15.24" y="-7.62" drill="1.016" shape="square"/>
+<pad name="P$4" x="-15.24" y="-10.16" drill="1.016" shape="square"/>
 </package>
 <package name="2X5_PIN_SOCKET">
-<pad name="P$1" x="-5.08" y="2.54" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$2" x="-2.54" y="2.54" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$3" x="0" y="2.54" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$4" x="2.54" y="2.54" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$5" x="5.08" y="2.54" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$6" x="-5.08" y="0" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$7" x="-2.54" y="0" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$8" x="0" y="0" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$9" x="2.54" y="0" drill="0.6" shape="square" rot="R90"/>
-<pad name="P$10" x="5.08" y="0" drill="0.6" shape="square" rot="R90"/>
+<pad name="P$1" x="-5.08" y="2.54" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$2" x="-2.54" y="2.54" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$3" x="0" y="2.54" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$4" x="2.54" y="2.54" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$5" x="5.08" y="2.54" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$6" x="-5.08" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$7" x="-2.54" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$8" x="0" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$9" x="2.54" y="0" drill="1.016" shape="square" rot="R90"/>
+<pad name="P$10" x="5.08" y="0" drill="1.016" shape="square" rot="R90"/>
 <wire x1="-6.35" y1="3.81" x2="-6.35" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
@@ -145,36 +145,36 @@
 <text x="0" y="4.445" size="1.27" layer="27">&gt;Value</text>
 </package>
 <package name="ARDUINO_NANO">
-<pad name="D13" x="-7.62" y="15.24" drill="0.6" shape="long"/>
-<pad name="3V3" x="-7.62" y="12.7" drill="0.6" shape="long"/>
-<pad name="AREF" x="-7.62" y="10.16" drill="0.6" shape="long"/>
-<pad name="A0" x="-7.62" y="7.62" drill="0.6" shape="long"/>
-<pad name="A1" x="-7.62" y="5.08" drill="0.6" shape="long"/>
-<pad name="A2" x="-7.62" y="2.54" drill="0.6" shape="long"/>
-<pad name="A3" x="-7.62" y="0" drill="0.6" shape="long"/>
-<pad name="A4" x="-7.62" y="-2.54" drill="0.6" shape="long"/>
-<pad name="A5" x="-7.62" y="-5.08" drill="0.6" shape="long"/>
-<pad name="A6" x="-7.62" y="-7.62" drill="0.6" shape="long"/>
-<pad name="A7" x="-7.62" y="-10.16" drill="0.6" shape="long"/>
-<pad name="5V" x="-7.62" y="-12.7" drill="0.6" shape="long"/>
-<pad name="RST" x="-7.62" y="-15.24" drill="0.6" shape="long"/>
-<pad name="GND" x="-7.62" y="-17.78" drill="0.6" shape="long"/>
-<pad name="VIN" x="-7.62" y="-20.32" drill="0.6" shape="long"/>
-<pad name="D12" x="7.62" y="15.24" drill="0.6" shape="long"/>
-<pad name="D11" x="7.62" y="12.7" drill="0.6" shape="long"/>
-<pad name="D10" x="7.62" y="10.16" drill="0.6" shape="long"/>
-<pad name="D9" x="7.62" y="7.62" drill="0.6" shape="long"/>
-<pad name="D8" x="7.62" y="5.08" drill="0.6" shape="long"/>
-<pad name="D7" x="7.62" y="2.54" drill="0.6" shape="long"/>
-<pad name="D6" x="7.62" y="0" drill="0.6" shape="long"/>
-<pad name="D5" x="7.62" y="-2.54" drill="0.6" shape="long"/>
-<pad name="D4" x="7.62" y="-5.08" drill="0.6" shape="long"/>
-<pad name="D3" x="7.62" y="-7.62" drill="0.6" shape="long"/>
-<pad name="D2" x="7.62" y="-10.16" drill="0.6" shape="long"/>
-<pad name="GND_2" x="7.62" y="-12.7" drill="0.6" shape="long"/>
-<pad name="RST_2" x="7.62" y="-15.24" drill="0.6" shape="long"/>
-<pad name="RX0" x="7.62" y="-17.78" drill="0.6" shape="long"/>
-<pad name="TX1" x="7.62" y="-20.32" drill="0.6" shape="long"/>
+<pad name="D13" x="-7.62" y="15.24" drill="1.016"/>
+<pad name="3V3" x="-7.62" y="12.7" drill="1.016"/>
+<pad name="AREF" x="-7.62" y="10.16" drill="1.016"/>
+<pad name="A0" x="-7.62" y="7.62" drill="1.016"/>
+<pad name="A1" x="-7.62" y="5.08" drill="1.016"/>
+<pad name="A2" x="-7.62" y="2.54" drill="1.016"/>
+<pad name="A3" x="-7.62" y="0" drill="1.016"/>
+<pad name="A4" x="-7.62" y="-2.54" drill="1.016"/>
+<pad name="A5" x="-7.62" y="-5.08" drill="1.016"/>
+<pad name="A6" x="-7.62" y="-7.62" drill="1.016"/>
+<pad name="A7" x="-7.62" y="-10.16" drill="1.016"/>
+<pad name="5V" x="-7.62" y="-12.7" drill="1.016"/>
+<pad name="RST" x="-7.62" y="-15.24" drill="1.016"/>
+<pad name="GND" x="-7.62" y="-17.78" drill="1.016"/>
+<pad name="VIN" x="-7.62" y="-20.32" drill="1.016"/>
+<pad name="D12" x="7.62" y="15.24" drill="1.016" rot="R180"/>
+<pad name="D11" x="7.62" y="12.7" drill="1.016" rot="R180"/>
+<pad name="D10" x="7.62" y="10.16" drill="1.016" rot="R180"/>
+<pad name="D9" x="7.62" y="7.62" drill="1.016" rot="R180"/>
+<pad name="D8" x="7.62" y="5.08" drill="1.016"/>
+<pad name="D7" x="7.62" y="2.54" drill="1.016"/>
+<pad name="D6" x="7.62" y="0" drill="1.016"/>
+<pad name="D5" x="7.62" y="-2.54" drill="1.016"/>
+<pad name="D4" x="7.62" y="-5.08" drill="1.016"/>
+<pad name="D3" x="7.62" y="-7.62" drill="1.016"/>
+<pad name="D2" x="7.62" y="-10.16" drill="1.016"/>
+<pad name="GND_2" x="7.62" y="-12.7" drill="1.016"/>
+<pad name="RST_2" x="7.62" y="-15.24" drill="1.016"/>
+<pad name="RX0" x="7.62" y="-17.78" drill="1.016"/>
+<pad name="TX1" x="7.62" y="-20.32" drill="1.016"/>
 <wire x1="-8.89" y1="19.05" x2="-8.89" y2="16.51" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="16.51" x2="-8.89" y2="13.97" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="13.97" x2="-8.89" y2="-24.13" width="0.127" layer="21"/>
@@ -195,17 +195,17 @@
 <text x="9.525" y="-16.51" size="1.27" layer="27" rot="SR270">&gt;Value</text>
 </package>
 <package name="JMP18X1">
-<pad name="P$1" x="0" y="12.7" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$2" x="0" y="10.16" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$3" x="0" y="7.62" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$4" x="0" y="5.08" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$5" x="0" y="2.54" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$6" x="0" y="0" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$7" x="0" y="-2.54" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$8" x="0" y="-5.08" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$9" x="0" y="-7.62" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$10" x="0" y="-10.16" drill="0.6" shape="square" rot="R180"/>
-<pad name="P$11" x="0" y="-12.7" drill="0.6" shape="square" rot="R180"/>
+<pad name="P$1" x="0" y="12.7" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$2" x="0" y="10.16" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$3" x="0" y="7.62" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$4" x="0" y="5.08" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$5" x="0" y="2.54" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$6" x="0" y="0" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$7" x="0" y="-2.54" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$8" x="0" y="-5.08" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$9" x="0" y="-7.62" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$10" x="0" y="-10.16" drill="1.016" shape="square" rot="R180"/>
+<pad name="P$11" x="0" y="-12.7" drill="1.016" shape="square" rot="R180"/>
 <wire x1="-1.27" y1="13.97" x2="-1.27" y2="11.43" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="11.43" x2="-1.27" y2="-31.75" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-31.75" x2="1.27" y2="11.43" width="0.127" layer="21"/>
@@ -213,14 +213,14 @@
 <wire x1="1.27" y1="13.97" x2="-1.27" y2="13.97" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="11.43" x2="1.27" y2="11.43" width="0.127" layer="21"/>
 <rectangle x1="-1.27" y1="11.43" x2="1.27" y2="13.97" layer="21"/>
-<pad name="P$12" x="0" y="-15.24" drill="0.6" shape="square"/>
-<pad name="P$13" x="0" y="-17.78" drill="0.6" shape="square"/>
-<pad name="P$14" x="0" y="-20.32" drill="0.6" shape="square"/>
-<pad name="P$15" x="0" y="-22.86" drill="0.6" shape="square"/>
-<pad name="P$16" x="0" y="-25.4" drill="0.6" shape="square"/>
+<pad name="P$12" x="0" y="-15.24" drill="1.016" shape="square"/>
+<pad name="P$13" x="0" y="-17.78" drill="1.016" shape="square"/>
+<pad name="P$14" x="0" y="-20.32" drill="1.016" shape="square"/>
+<pad name="P$15" x="0" y="-22.86" drill="1.016" shape="square"/>
+<pad name="P$16" x="0" y="-25.4" drill="1.016" shape="square"/>
 <wire x1="-1.27" y1="-31.75" x2="1.27" y2="-31.75" width="0.127" layer="21"/>
-<pad name="P$17" x="0" y="-27.94" drill="0.6" shape="square"/>
-<pad name="P$18" x="0" y="-30.48" drill="0.6" shape="square"/>
+<pad name="P$17" x="0" y="-27.94" drill="1.016" shape="square"/>
+<pad name="P$18" x="0" y="-30.48" drill="1.016" shape="square"/>
 </package>
 </packages>
 <symbols>
